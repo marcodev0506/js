@@ -67,6 +67,22 @@ let suma_datos = '3' + 8 //no se sumara si no se concatenara
 
 const numero23= '345'
 const numeroprueba= parseInt (numero23) // parseInt nos cambia el tipo de dato de un array a un numero 
-console.log( typeof numero23)
-console.log(typeof numeroprueba)
+//console.log( typeof numero23)
+//console.log(typeof numeroprueba)
 
+// && = y --- || = 0 --- ! =no 
+
+let precio_casa = '8000$';
+
+let precio_apartamento = '8000$'
+
+if (precio_casa < precio_apartamento ){
+  console.log('valido')
+
+}else if (precio_apartamento === precio_casa){
+    console.log('no valido')  
+
+}else{
+  nuevo_precio= precio_casa + 123
+  console.log (nuevo_precio)
+}
