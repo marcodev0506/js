@@ -86,3 +86,4 @@ if ((precio_casa == precio_apartamento) || precio_casa === precio_apartamento ) 
 }
 
 
+
