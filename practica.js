@@ -74,15 +74,15 @@ const numeroprueba= parseInt (numero23) // parseInt nos cambia el tipo de dato d
 
 let precio_casa = '8000$';
 
-let precio_apartamento = '8000$'
+let precio_apartamento = '9000$'
 
-if (precio_casa < precio_apartamento ){
-  console.log('valido')
-
-}else if (precio_apartamento === precio_casa){
-    console.log('no valido')  
-
-}else{
-  nuevo_precio= precio_casa + 123
-  console.log (nuevo_precio)
+if ((precio_casa == precio_apartamento) || precio_casa === precio_apartamento ) {
+  console.log("valido");
+} else if (precio_apartamento > precio_casa) {
+  console.log("no valido");
+} else {
+  nuevo_precio = precio_casa + 123;
+  console.log(nuevo_precio);
 }
+
+
