@@ -42,21 +42,31 @@ const datosx = () => precio_caja + dato_null
 
 let producto = datosx()
 
-console.log (producto)
+//console.log (producto)
 
 
 // modulo y exponenciación 
 
 const modulo= 16%3
 let expo= 2**3
-console.log (modulo , expo)
+//console.log (modulo , expo)
 
 // raiz cuadrada
 
 let raiz= Math.sqrt(2)
-console.log (raiz)
+//console.log (raiz)
 
 let ejemplo3= Math.random()
 
-console.log(ejemplo3)
+//console.log(ejemplo3)
+
+let suma_datos = '3' + 8 //no se sumara si no se concatenara
+//console.log(suma_datos)
+
+// Pero si el primer valor es numero o boleano si busca sumar 
+
+const numero23= '345'
+const numeroprueba= parseInt (numero23) // parseInt nos cambia el tipo de dato de un array a un numero 
+console.log( typeof numero23)
+console.log(typeof numeroprueba)
 
